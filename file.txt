@@ -1,0 +1,4 @@
+def can = create_canvas:(500,200);
+def pt = create_pt: ('triangle');
+can.add_pt:(pt);
+can.blure(3);
